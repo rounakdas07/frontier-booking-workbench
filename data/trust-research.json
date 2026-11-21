@@ -1,0 +1,122 @@
+{
+  "RWE": {
+    "shortName": "Leicester",
+    "evidence": {
+      "title": "Late rebooking communication and administrative capacity",
+      "need": "The outpatient DNA section reports PAS-to-Accurx feed problems, late cancellation/rebooking letters and limited administrative capacity to answer calls or action cancel/rebook requests. It also states that Accurx reminders are live in most services.",
+      "url": "https://www.uhleicester.nhs.uk/wp-content/uploads/2026/11/G-Integrated-Performance-Report-and-Executive-Summary.pdf",
+      "date": "2026-11-12",
+      "period": "September 2026",
+      "page": 49,
+      "context": "This is a reported outpatient DNA root-cause analysis, not an explanation of all hospital-cancelled first appointments in HES.",
+      "route": {
+        "label": "Health Innovation Hub — industry solution submission",
+        "url": "https://www.uhleicester.nhs.uk/research/health-innovation-hub/innovate-with-us/",
+        "text": "Official innovation front door welcomes industry proposals and supports pilots, implementation and scale."
+      },
+      "question": "Which cancellation/rebooking queues remain manual after Accurx/PAS work, OTTO and imaging automation, and can we measure the remaining staff handling time?",
+      "checks": [
+        {
+          "label": "Accurx: November board report",
+          "url": "https://www.uhleicester.nhs.uk/wp-content/uploads/2026/11/G-Integrated-Performance-Report-and-Executive-Summary.pdf"
+        },
+        {
+          "label": "OTUA: NHS operational plan",
+          "url": "https://leicesterleicestershireandrutland.icb.nhs.uk/wp-content/uploads/2025/04/Paper-H-Operational-Plan-Appendices-1-and-2-combined-v3.pdf"
+        },
+        {
+          "label": "OTTO rollout: supplier account",
+          "url": "https://otua.co.uk/case-study"
+        },
+        {
+          "label": "Dedalus: imaging contract notice",
+          "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=APR604710&catID="
+        }
+      ],
+      "incumbent": "Accurx reminders are live in most services. OTUA is named in the NHS plan; its supplier reports an OTTO rollout. A separate Dedalus award covers imaging booking automation. Check remaining manual queues with each system owner.",
+      "incumbentUrl": "https://www.uhleicester.nhs.uk/wp-content/uploads/2026/11/G-Integrated-Performance-Report-and-Executive-Summary.pdf"
+    }
+  },
+  "RX1": {
+    "shortName": "Nottingham",
+    "evidence": {
+      "title": "Booking-rule alignment and outpatient access",
+      "need": "The trust says dermatology improved booking processes and aligned booking rules, creating more than 150 additional new outpatient appointments per month with benefits expected from June.",
+      "url": "https://www.nuh.nhs.uk/news/nottingham-university-hospitals-is-the-fastest-improving-trust-in-the-midlands-for-elective-waiting-times-11022",
+      "date": "2026-05-14",
+      "period": null,
+      "page": null,
+      "context": "A dermatology improvement example, not evidence that all trust-level first cancellations originate in dermatology or that those processes remain manual.",
+      "route": {
+        "label": "Research and Innovation — Industry and Contracts team",
+        "email": "nuhnt.researchcontracts@nhs.net",
+        "url": "https://www.nuh.nhs.uk/industry-ri/",
+        "text": "Official commercial team for industry research and adoption discussions; the page also offers nuhnt.commercialresearch@nhs.net for expressions of interest.",
+        "caveat": "Research/industry entry point, not evidence of purchasing authority for outpatient operations."
+      },
+      "question": "Which queues still require manual coordination after booking-rule alignment and app rollout, and which service owner could sponsor a measured workflow pilot?",
+      "checks": [
+        {
+          "label": "Trust transformation announcement",
+          "url": "https://www.nuh.nhs.uk/news/nottingham-hospitals-to-announce-transformation-to-services-to-improve-patient-care-and-deliver-financial-savings-10243/"
+        }
+      ],
+      "incumbent": "Booking rules have already been improved. The trust also announced an app for booking and rescheduling. Confirm what has been implemented and where staff still need to coordinate tasks.",
+      "incumbentUrl": "https://www.nuh.nhs.uk/news/nottingham-hospitals-to-announce-transformation-to-services-to-improve-patient-care-and-deliver-financial-savings-10243/"
+    }
+  },
+  "RYJ": {
+    "shortName": "Imperial",
+    "evidence": {
+      "title": "Patient choice before follow-up booking",
+      "need": "The trust describes a choice-booking pilot covering over 2,000 follow-up appointments in five services: a text to confirm need, telephone offers closer to the appointment, and a letter if contact fails.",
+      "url": "https://www.imperial.nhs.uk/about-us/news/new-choice-booking-process",
+      "date": "2025-04-11",
+      "period": null,
+      "page": null,
+      "context": "This was a follow-up pilot, not the first-appointment population in the default HES view. Reported local improvements must not be used as assumed JUNO effects.",
+      "route": {
+        "label": "Paddington Life Sciences — commercial partnerships",
+        "email": "suki.mistry1@nhs.net",
+        "url": "https://www.paddington.imperial.nhs.uk/contact-us",
+        "text": "The official NHS partnership site lists Dr Suki Balendra for commercial partnership enquiries."
+      },
+      "question": "Which first-appointment or exception-handling workflows remain outside the choice-booking process, and what would a complementary pilot measure?",
+      "checks": [
+        {
+          "label": "Existing choice-booking programme",
+          "url": "https://www.imperial.nhs.uk/about-us/news/new-choice-booking-process"
+        }
+      ],
+      "incumbent": "An established choice-booking pilot covers follow-up appointments. This is a workflow comparator, not proof of unmet first-appointment demand.",
+      "incumbentUrl": "https://www.imperial.nhs.uk/about-us/news/new-choice-booking-process"
+    }
+  },
+  "RWD": {
+    "shortName": "Lincolnshire",
+    "evidence": {
+      "title": "Fragmented booking administration and patient contact",
+      "need": "The trust describes its April 2026 Patient Services Hub replacing fragmented administration across 15 systems and 40 mailboxes. It says three-quarters of prior calls concerned checking, rebooking or cancelling appointments.",
+      "url": "https://www.ulh.nhs.uk/patients/outpatients/contacting-your-outpatient-appointment-booking-team/modernising-our-appointment-booking-service/",
+      "date": null,
+      "period": "2026 programme update; accessed 21 November 2026",
+      "page": null,
+      "context": "The same update reports automated self-service, SMS filling of short-notice slots and a six-month implementation pause announced in July. This is an active programme with implementation concerns, not evidence of available procurement.",
+      "route": {
+        "label": "Research and Innovation enquiries",
+        "url": "https://www.ulh.nhs.uk/about/clinical-research-facility/",
+        "text": "Official research contact page.",
+        "caveat": "A general research route only; a specific outpatient innovation or purchasing route was not verified."
+      },
+      "question": "After the Patient Services Hub review, which exceptions still need staff coordination, and is a complementary measured pilot appropriate before further rollout?",
+      "checks": [
+        {
+          "label": "Patient Services Hub programme update",
+          "url": "https://www.ulh.nhs.uk/patients/outpatients/contacting-your-outpatient-appointment-booking-team/modernising-our-appointment-booking-service/"
+        }
+      ],
+      "incumbent": "The Patient Services Hub already offers booking automation. The trust reports a six-month rollout pause announced in July 2026. Establish the current programme status before proposing anything.",
+      "incumbentUrl": "https://www.ulh.nhs.uk/patients/outpatients/contacting-your-outpatient-appointment-booking-team/modernising-our-appointment-booking-service/"
+    }
+  }
+}

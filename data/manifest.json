@@ -1,0 +1,56 @@
+{
+  "builtAt": "2026-11-21T23:24:35.927070+00:00",
+  "retrievedAt": "2026-11-21T23:14:49.788246+00:00",
+  "sources": [
+    {
+      "id": "hes2425",
+      "year": "2024-25",
+      "period": "1 April 2024\u201331 March 2025",
+      "file": "outpatients-2024-25.csv",
+      "url": "https://files.digital.nhs.uk/14/39519A/hosp-epis-stat-outp-pla-2024-25-tab.csv",
+      "page": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2024-25",
+      "published": "2025-09-25",
+      "rows": 45506,
+      "sha256": "64c1ffec54a8586c2ade0dd6c1e0966e9a8bafb5e273b16f1daa37b91a1199d6",
+      "bytes": 5388263,
+      "retrievedAt": "2026-11-21T23:14:49.788246+00:00"
+    },
+    {
+      "id": "hes2526",
+      "year": "2025-26",
+      "period": "1 April 2025\u201331 March 2026",
+      "file": "outpatients-2025-26.csv",
+      "url": "https://files.digital.nhs.uk/5D/654D5E/hosp-epis-stat-outp-pla-2025-26-tab.csv",
+      "page": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2025-26",
+      "published": "2026-09-24",
+      "rows": 55845,
+      "sha256": "7c13d989f5d099ad98893631900a4af1885e78d36bbc7c15ccfdbbf090de9afc",
+      "bytes": 6618690,
+      "retrievedAt": "2026-11-21T23:13:07.086923+00:00"
+    }
+  ],
+  "rawRows": 101351,
+  "providerRows": 99709,
+  "selectedRows": 4155,
+  "currentTrusts": 148,
+  "trustsAcrossYears": 154,
+  "years": [
+    "2024-25",
+    "2025-26"
+  ],
+  "firstCodes": [
+    "01",
+    "02",
+    "06",
+    "07",
+    "11",
+    "12",
+    "16",
+    "17"
+  ],
+  "rounding": "Provider counts rounded to nearest five. Suppressed or absent cells remain unavailable.",
+  "scope": "NHS provider rows with three-character ODS codes and NHS in their published name. First appointments, including tele consultations.",
+  "methodologyUrl": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2025-26/about-this-publication",
+  "disclosureUrl": "https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics/disclosure-control-methodology-for-hospital-episode-statistics-and-emergency-care-data-set",
+  "metadataUrl": "https://files.digital.nhs.uk/15/578BB6/hosp-epis-stat-outp-meta-2025-26-tab.xlsx"
+}

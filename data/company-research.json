@@ -1,0 +1,224 @@
+{
+  "researchedAt": "2026-11-21",
+  "scope": "Primary-source research for a public NHS outpatient booking workload finder and editable JUNO pilot measurement plan. Public event counts are discovery inputs, not causal evidence or a current work queue.",
+  "company": {
+    "name": "Frontier Health",
+    "product": "JUNO",
+    "founder": "Rachel Finegold",
+    "role": "Founder and CEO",
+    "exactLinkedIn": "https://uk.linkedin.com/in/rachel-finegold-735a8b104",
+    "linkedinSource": "https://uk.linkedin.com/in/rachel-finegold-735a8b104",
+    "companySource": "https://www.frontierhealth.ai/about-us",
+    "workflows": [
+      "Referral processing, prerequisite checks and routing",
+      "Waiting-list checks, validation and follow-up",
+      "Booking and rescheduling",
+      "Patient confirmations, reminders and updates",
+      "Patient tracking"
+    ],
+    "workflowSource": "https://www.frontierhealth.ai/",
+    "workflowCaveat": "These are company-stated capabilities. The homepage names EPR, PAS and e-RS integration and assisted, automated and hand-off operation; it does not establish integration availability at every trust.",
+    "companyGrowthSource": {
+      "title": "Deployment Strategist role published by Frontier on MMC's portfolio jobs board",
+      "published": "2026-08-13",
+      "url": "https://jobs.mmc.vc/companies/frontier-health-2-7b2d8156-877b-4b10-adb2-e6e0698eb9fd/jobs/89818611-deployment-strategist",
+      "text": "The role covers deployment scope, workflows, governance, integration and procurement, change management, adoption, measured impact and expansion within accounts.",
+      "caveat": "The listing was closed when reviewed; use as evidence of the stated deployment approach, not as a current open vacancy."
+    },
+    "knownCustomer": {
+      "ods": "RXC",
+      "name": "East Sussex Healthcare NHS Trust",
+      "kind": "Existing JUNO customer / collaboration",
+      "text": "The trust's April 2026 board papers describe emergency-department collaboration with Frontier and JUNO, including diagnostic monitoring, bed availability and breach validation.",
+      "nhsSourceDate": "2026-04-21",
+      "nhsSource": "https://www.esht.nhs.uk/wp-content/uploads/2026/04/21-April-2026-Trust-Board-meeting-in-public.pdf",
+      "companyCaseStudyDate": "2026-06-10",
+      "companyCaseStudy": "https://frontierhealth.ai/case-studies/why-east-sussex-healthcare-nhs-trust-chose-frontier-health",
+      "caveats": [
+        "Use as an account-expansion discussion, not an uncontacted new prospect.",
+        "RXC East Sussex Healthcare is distinct from RYR University Hospitals Sussex.",
+        "The vendor case study concerns emergency-department workflows. Its time and capacity claims must not become outpatient cancellation-reduction assumptions.",
+        "No comprehensive customer register was found. Absence of a public case study does not prove a trust is not a customer."
+      ]
+    },
+    "avoidClaims": [
+      "The team's prior work across more than 40 NHS trusts is not a JUNO customer count.",
+      "Do not apply the homepage's scheduling-time reduction claim to a new trust or assume an eight-week deployment guarantee.",
+      "Do not label historical HES activity as an addressable, unrebooked queue."
+    ]
+  },
+  "trusts": {
+    "RWE": {
+      "name": "University Hospitals of Leicester NHS Trust",
+      "suitability": "Strong documented operational relevance; check incumbents and scope before approaching.",
+      "need": {
+        "title": "Late rebooking communication and administrative capacity",
+        "sourceDate": "2026-11-12",
+        "sourcePeriod": "September 2026",
+        "page": 49,
+        "url": "https://www.uhleicester.nhs.uk/wp-content/uploads/2026/11/G-Integrated-Performance-Report-and-Executive-Summary.pdf",
+        "text": "The outpatient DNA section reports PAS-to-Accurx feed problems, late cancellation/rebooking letters and limited administrative capacity to answer calls or action cancel/rebook requests. It also states that Accurx reminders are live in most services.",
+        "caveat": "This is a reported outpatient DNA root-cause analysis, not an explanation of all hospital-cancelled first appointments in HES."
+      },
+      "earlierNeed": {
+        "sourceDate": "2026-02-12",
+        "sourcePeriod": "December 2025",
+        "url": "https://www.uhleicester.nhs.uk/wp-content/uploads/2026/03/F-Integrated-Performance-Report-and-Executive-Summary.pdf",
+        "text": "The report describes admin shortages, reminder-feed issues and an automated booking/calling system being procured.",
+        "caveat": "The meeting date is 12 February despite the March URL path. Completion of this specific procurement has not been established."
+      },
+      "incumbents": [
+        {
+          "name": "Accurx / Nervecentre PAS",
+          "status": "Operational reminders with reported integration issues",
+          "url": "https://www.uhleicester.nhs.uk/wp-content/uploads/2026/11/G-Integrated-Performance-Report-and-Executive-Summary.pdf",
+          "text": "The latest report says automated reminders are live in most services, including imaging and therapies."
+        },
+        {
+          "name": "OTUA / OTTO",
+          "status": "Named in NHS plan; pilot and wider rollout reported by supplier",
+          "nhsUrl": "https://leicesterleicestershireandrutland.icb.nhs.uk/wp-content/uploads/2025/04/Paper-H-Operational-Plan-Appendices-1-and-2-combined-v3.pdf",
+          "supplierUrl": "https://otua.co.uk/case-study",
+          "text": "The ICB 2025/26 operational plan names OTUA as an automated patient booking tool. OTUA describes an 18-week cardiology pilot at UHL and subsequent rollout across sites.",
+          "caveat": "Pilot effects and rollout status are supplier-reported; neither establishes the exact scope or award of February's booking/calling procurement."
+        },
+        {
+          "name": "Dedalus",
+          "status": "Direct award recorded for imaging-related booking automation",
+          "sourceDate": "2026-04-01",
+          "reference": "C432933 / ocds-h6vhtk-066f24",
+          "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=APR604710&catID=",
+          "originalNoticeUrl": "https://www.find-tender.service.gov.uk/Notice/029470-2026",
+          "text": "The government procurement notice names Dedalus for cloud automation aligned with UHL's imaging strategy and an NHS App appointment-booking gateway. It lists estimated contract dates 2 April 2026 to 1 April 2027.",
+          "caveat": "Government mirror verified; original FTS page could not be retrieved. This is an imaging-specific contract, not proof that the broader February procurement completed or that the system is fully deployed."
+        }
+      ],
+      "route": {
+        "label": "Health Innovation Hub — industry solution submission",
+        "url": "https://www.uhleicester.nhs.uk/research/health-innovation-hub/innovate-with-us/",
+        "text": "Official innovation front door welcomes industry proposals and supports pilots, implementation and scale."
+      },
+      "procurementRoute": {
+        "label": "UHL procurement mailbox published on the contract notice",
+        "email": "uhl-tr.procurementmailbox@nhs.net",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=APR604710&catID="
+      },
+      "nextQuestion": "Which cancellation/rebooking queues remain manual after Accurx/PAS work, OTTO and imaging automation, and can we measure the remaining staff handling time?",
+      "dataContext": "The build's extracted hospital-cancelled first-appointment total declined from 85,475 in 2024/25 to 80,540 in 2025/26. Describe substantial reported workload, not deterioration. Public operational evidence and HES counts are separate signals."
+    },
+    "RX1": {
+      "name": "Nottingham University Hospitals NHS Trust",
+      "suitability": "Existing booking improvement programme; investigate complementary scope.",
+      "need": {
+        "title": "Booking-rule alignment and outpatient access",
+        "sourceDate": "2026-05-14",
+        "url": "https://www.nuh.nhs.uk/news/nottingham-university-hospitals-is-the-fastest-improving-trust-in-the-midlands-for-elective-waiting-times-11022",
+        "text": "The trust says dermatology improved booking processes and aligned booking rules, creating more than 150 additional new outpatient appointments per month with benefits expected from June.",
+        "caveat": "A dermatology improvement example, not evidence that all trust-level first cancellations originate in dermatology or that those processes remain manual."
+      },
+      "existingProgramme": {
+        "url": "https://www.nuh.nhs.uk/news/nottingham-hospitals-to-announce-transformation-to-services-to-improve-patient-care-and-deliver-financial-savings-10243/",
+        "text": "The trust's 2025 transformation announcement includes shorter first-outpatient waits, an app for booking/rescheduling, and improved diagnostic booking."
+      },
+      "route": {
+        "label": "Research and Innovation — Industry and Contracts team",
+        "email": "nuhnt.researchcontracts@nhs.net",
+        "url": "https://www.nuh.nhs.uk/industry-ri/",
+        "text": "Official commercial team for industry research and adoption discussions; the page also offers nuhnt.commercialresearch@nhs.net for expressions of interest.",
+        "caveat": "Research/industry entry point, not evidence of purchasing authority for outpatient operations."
+      },
+      "nextQuestion": "Which queues still require manual coordination after booking-rule alignment and app rollout, and which service owner could sponsor a measured workflow pilot?"
+    },
+    "RYJ": {
+      "name": "Imperial College Healthcare NHS Trust",
+      "suitability": "Useful established pilot-design comparator; confirm unmet first-appointment scope.",
+      "need": {
+        "title": "Patient choice before follow-up booking",
+        "sourceDate": "2025-04-11",
+        "url": "https://www.imperial.nhs.uk/about-us/news/new-choice-booking-process",
+        "text": "The trust describes a choice-booking pilot covering over 2,000 follow-up appointments in five services: a text to confirm need, telephone offers closer to the appointment, and a letter if contact fails.",
+        "caveat": "This was a follow-up pilot, not the first-appointment population in the default HES view. Reported local improvements must not be used as assumed JUNO effects."
+      },
+      "route": {
+        "label": "Paddington Life Sciences — commercial partnerships",
+        "email": "suki.mistry1@nhs.net",
+        "url": "https://www.paddington.imperial.nhs.uk/contact-us",
+        "text": "The official NHS partnership site lists Dr Suki Balendra for commercial partnership enquiries."
+      },
+      "nextQuestion": "Which first-appointment or exception-handling workflows remain outside the choice-booking process, and what would a complementary pilot measure?"
+    },
+    "RWD": {
+      "name": "United Lincolnshire Hospitals NHS Trust",
+      "suitability": "Current programme context; avoid treating an active transformation as untouched scope.",
+      "need": {
+        "title": "Fragmented booking administration and patient contact",
+        "sourceDate": null,
+        "sourcePeriod": "2026 programme update; accessed 21 November 2026",
+        "url": "https://www.ulh.nhs.uk/patients/outpatients/contacting-your-outpatient-appointment-booking-team/modernising-our-appointment-booking-service/",
+        "text": "The trust describes its April 2026 Patient Services Hub replacing fragmented administration across 15 systems and 40 mailboxes. It says three-quarters of prior calls concerned checking, rebooking or cancelling appointments.",
+        "caveat": "The same update reports automated self-service, SMS filling of short-notice slots and a six-month implementation pause announced in July. This is an active programme with implementation concerns, not evidence of available procurement."
+      },
+      "route": {
+        "label": "Research and Innovation enquiries",
+        "url": "https://www.ulh.nhs.uk/about/clinical-research-facility/",
+        "text": "Official research contact page.",
+        "caveat": "A general research route only; a specific outpatient innovation or purchasing route was not verified."
+      },
+      "nextQuestion": "After the Patient Services Hub review, which exceptions still need staff coordination, and is a complementary measured pilot appropriate before further rollout?"
+    }
+  },
+  "dataRules": {
+    "publication": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2025-26",
+    "publicationDate": "2026-09-24",
+    "period": "2025-04-01 to 2026-03-31",
+    "about": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2025-26/about-this-publication",
+    "metadata": "https://files.digital.nhs.uk/15/578BB6/hosp-epis-stat-outp-meta-2025-26-tab.xlsx",
+    "suppressionSource": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-admitted-patient-care-activity/supporting-information",
+    "disclosureSource": "https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics/disclosure-control-methodology-for-hospital-episode-statistics-and-emergency-care-data-set",
+    "facts": [
+      "The publication describes appointments, not unique patients. A patient can have several first appointments across different care episodes.",
+      "HES outpatient coverage concerns activity in England. It includes private patients treated in NHS hospitals and NHS-funded independent-sector activity.",
+      "Some providers submit attended appointments only, so cancellation and DNA counts can understate activity. Low or zero reports are not evidence of no workflow.",
+      "For subnational counts, values 1–7 are suppressed as '*' or zero with a Y suppression flag. True zero is unchanged; other counts are rounded to the nearest five.",
+      "Totals calculated before rounding can differ from sums of rounded components. Derived app totals and run-rates should be labelled approximate.",
+      "The provider CSV does not supply the specialty-by-cancellation cross-tab needed to assign these provider totals to specialties."
+    ],
+    "designDecisions": [
+      "Keep suppressed values unknown; never turn a suppression flag into a true zero.",
+      "Separate observed annual event counts from user-entered scope, handling time and eligibility assumptions.",
+      "A cancellation event is not necessarily one unique administrative job, one patient, or an unresolved task.",
+      "Annual count divided by 52 is a simple average run-rate, not a seasonal forecast or current backlog.",
+      "Treat prior-year changes as changes in reported activity; check reporting completeness and organisation changes before causal interpretation.",
+      "Do not conflate provider CSV measure codes 16/17, 06/07 and 11/12 with the metadata's different attendance-type code system."
+    ]
+  },
+  "existingTools": [
+    {
+      "name": "NHS Hospital Outpatient Activity provider dashboard",
+      "url": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2025-26",
+      "text": "The publication already includes an interactive provider tool using its provider open data."
+    },
+    {
+      "name": "NHS Federated Data Platform outpatient product",
+      "url": "https://www.england.nhs.uk/digitaltechnology/nhs-federated-data-platform/solution-exchange-product-catalogue/outpatients/",
+      "text": "NHS already offers outpatient operational functionality, including clinic/room management and cancellation handling."
+    },
+    {
+      "name": "NHS outpatient improvement guidance",
+      "url": "https://www.england.nhs.uk/long-read/outpatient-services-a-clinical-and-operational-improvement-guide/",
+      "text": "National operational guidance and existing NHS systems should inform local discovery, rather than assuming a missing dashboard."
+    }
+  ],
+  "proposedDistinctValue": {
+    "label": "Find a booking workflow, then produce a testable pilot scope",
+    "text": "Connect public provider event volumes to a selected administrative workflow, incumbent-aware discovery questions, explicit local assumptions and an exportable measurement plan.",
+    "suggestedBaselineMeasures": [
+      "Staff handling minutes per eligible event, using an agreed local definition",
+      "Contacts and attempts per completed rebooking",
+      "Time from cancellation/request to confirmed new appointment",
+      "Manual exception, escalation and unresolved-request rates",
+      "Booking accuracy, duplicate communication and accessible non-digital route availability"
+    ],
+    "caveat": "These are suggested evaluation measures, not outcomes demonstrated by public HES counts."
+  }
+}
